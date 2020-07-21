@@ -1,5 +1,8 @@
 # magic8_Ball
 
+SkillCrush FEND DEV Blueprint
+SkillCrush Javascript 102 class activity
+
 - HTML, CSS, JavaScript
 - JQuery
 - JQuery UI (shake effect)
