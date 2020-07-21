@@ -14,7 +14,6 @@ $(document).ready(function () {
   ];
 
   // define the method
-  $('#answer').fadeIn(4000);
   magic8Ball.askQuestion = function (question) {
     // create a random number
     var randomNumber = Math.random();
