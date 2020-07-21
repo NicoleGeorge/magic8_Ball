@@ -1,3 +1,5 @@
+$(document).ready(function() {
+
 var magic8Ball = {};
 magic8Ball.listOfAnswers = [
   'It is certain',
@@ -5,7 +7,7 @@ magic8Ball.listOfAnswers = [
   'Without a doubt',
   'Yes definitely',
   'Reply hazy try again',
-  'Ask again later',
+  'Ask again later', 
   'Better not tell you now',
   'My sources say no',
   'Outlook not so good',
@@ -29,3 +31,17 @@ magic8Ball.askQuestion = function (question) {
   console.log(answer);
 };
 var randomDance = magic8Ball.askQuestion('Will I get a new job?');
+
+
+var onClick = function() {
+    var question = prompt("ASK A YES/NO QUESTION!");
+    magic8Ball.askQuestion(question);
+};
+
+$("#questionButton").click(onClick);
+
+
+
+
+
+});
